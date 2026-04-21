@@ -1,33 +1,16 @@
-# Stone Photography Template
+# React + Vite
 
-A dark-themed template for a photography website.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Dark color scheme with moody aesthetics
-- Responsive gallery grid
-- Smooth scrolling navigation
-- Simple lightbox for image viewing
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Usage
+## React Compiler
 
-1. Replace placeholder images (`placeholder1.jpg` to `placeholder6.jpg`) with your actual photos.
-2. Customize the content in `index.html`.
-3. Adjust styles in `styles.css` as needed.
-4. Open `index.html` in a web browser to view the site.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Running Locally
+## Expanding the ESLint configuration
 
-To serve the site locally with a simple HTTP server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000` in your browser.
-
-## Customization
-
-- Change colors in `styles.css` to match your brand.
-- Add more sections or pages as needed.
-- Integrate with a CMS or backend for dynamic content.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
