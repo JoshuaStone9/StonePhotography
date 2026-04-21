@@ -11,6 +11,10 @@ document.querySelectorAll('.nav-link').forEach(anchor => {
     });
 });
 
+const navBarButton = document.querySelector('.navbar-toggler');
+
+
+
 // Simple lightbox for gallery images
 const galleryImages = document.querySelectorAll('#gallery img');
 galleryImages.forEach(img => {

@@ -11,3 +11,22 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
+
+.button {
+    border: rgb(57, 57, 57) solid 3px;
+    padding: 10px 20px;
+    border-bottom: 2px;
+    border-top: 3px;  
+    border-radius: 15%;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+    width: 150px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s, width 2.3s ease;
+}
