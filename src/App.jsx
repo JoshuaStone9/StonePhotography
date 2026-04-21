@@ -1,4 +1,5 @@
 import Gallery from "./Components/Gallery";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -51,10 +52,7 @@ function App() {
 
         <Gallery />
 
-        <section id="about" className="text-center mb-5">
-          <h2>About</h2>
-          <p>Beginner Photographer</p>
-        </section>
+        <About />
 
         <section id="contact" className="text-center mb-5">
           <h2>Contact</h2>
