@@ -10,13 +10,7 @@ export default function Gallery()
             <div className="row">
                 {images.map((src, index) => (
                     <div className="col-md-4 mb-3" key={index}>
-                        <img 
-                            src={src} 
-                            alt={`Photo ${index + 1}`} 
-                            className="img-fluid rounded" 
-                            onClick={() => setSelectedImage(src)} 
-                            style={{ cursor: "pointer"}} 
-                            /> 
+                        <img src={src} alt={`Photo ${index + 1}`} className="img-fluid rounded" onClick={() => setSelectedImage(src)} style={{ cursor: "pointer"}} /> 
                     </div>
                 ))}
             </div>
