@@ -1,5 +1,6 @@
 import Gallery from "./Components/Gallery";
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -54,10 +55,7 @@ function App() {
 
         <About />
 
-        <section id="contact" className="text-center mb-5">
-          <h2>Contact</h2>
-          <p>Email: info@stonephotography.com</p>
-        </section>
+        <Contact />
       </main>
 
       <footer className="bg-dark text-center py-3">
