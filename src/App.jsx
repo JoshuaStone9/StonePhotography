@@ -48,7 +48,6 @@ function App() {
 
       <main className="container-fluid my-5">
         <section id="home" className="text-center mb-5">
-          <h2>Welcome to Stone Photography</h2>
         </section>
 
         <Gallery />
