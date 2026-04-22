@@ -38,6 +38,13 @@ body {
     font-family: "Milky Lemon", sans-serif;
 }
 
+.subtitle-white {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Milky Lemon", sans-serif;
+}
+
 .section {
     background-color: #e0e0e0;
     border: rgb(57, 57, 57) solid 5px;

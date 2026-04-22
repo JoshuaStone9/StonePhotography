@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section id="contact" className="container py-5 text-center" style={{backgroundColor: "rgba(255, 255, 255, 1)", color:"black"}}>
-      <h2 className="mb-4">Contact Me</h2>
+      <h2 className="mb-4 subtitle">Contact Me</h2>
       <p>Feel free to reach out to me through any of the following channels:</p>
       <div className="row justify-content-center mt-4">
         <div className="col-10 col-md-8 col-lg-6">
