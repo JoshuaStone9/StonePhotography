@@ -88,6 +88,6 @@ Possible future improvements include:
 
 ## Version
 
-**Current release:** v1.0
+**Current release:** V1.0
 
 This release represents the first complete foundation of Stone Photography and sets the base for future updates as both the website and my photography journey continue to grow.

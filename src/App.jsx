@@ -32,12 +32,9 @@ function App() {
       <main className="container-fluid my-5">
         <section id="home" className="text-center mb-5">
         </section>
-
-        <Gallery />
-
-        <About />
-
-        <Contact />
+          <Gallery />
+          <About />
+          <Contact />
       </main>
 
       <footer className="bg-dark text-center py-3">
