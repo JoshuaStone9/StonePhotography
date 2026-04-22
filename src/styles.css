@@ -3,10 +3,6 @@ body {
     color: #e0e0e0;
 }
 
-.navbar-brand {
-    font-size: 2rem;
-}
-
 #gallery img:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
@@ -19,7 +15,6 @@ body {
     border-top: 3px;  
     border-radius: 15%;
     font-size: 1rem;
-    cursor: pointer;
     margin: 0 5px;
 }
 
@@ -28,7 +23,7 @@ body {
     color: #121212;
     width: 150px;
     text-align: center;
-    transition: background-color 0.3s, color 0.3s, width 2.3s ease;
+    transition: background-color 0.3s, color 0.3s, width 0.3s ease;
 }
 
 .subtitle {
