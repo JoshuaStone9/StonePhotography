@@ -1,4 +1,5 @@
-# Stone Photography v1.0
+# Stone Photography 
+## V1.0
 
 Stone Photography is the first version of my personal photography website, created as both a portfolio project and a learning journey. The site is designed to showcase my photography in a clean, responsive format while also helping me develop my front-end skills.
 
@@ -90,9 +91,3 @@ Possible future improvements include:
 **Current release:** v1.0
 
 This release represents the first complete foundation of Stone Photography and sets the base for future updates as both the website and my photography journey continue to grow.
-
-## Author
-
-**Joshua Stone**  
-Beginner Photographer and Developer  
-Project: **Stone Photography**
